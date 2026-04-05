@@ -1,5 +1,6 @@
 # QUBUHUB Automated Systems Access Policy
 
+
 User-agent: *
 
 Allow: /
