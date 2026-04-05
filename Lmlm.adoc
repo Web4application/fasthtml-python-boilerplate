@@ -1,0 +1,124 @@
+# LMLM Model Card
+**Model Family:** LMLM  
+**Maintained by:** QUBUHUB  
+**Version:** 1.0  
+**Effective Date:** 2026-04-05  
+**Status:** Production / Experimental / Internal (choose one)
+
+---
+
+## 1. Overview
+LMLM is a general-purpose AI model family developed under QUBUHUB for reasoning, language interaction, software assistance, structured generation, task execution support, and agentic workflows.
+
+LMLM is designed to be:
+- useful,
+- instruction-following,
+- context-aware,
+- safety-bounded,
+- and deployment-governable.
+
+LMLM is not presented as sentient, infallible, or autonomous beyond explicitly granted operational scope.
+
+---
+
+## 2. Intended Use
+LMLM may be used for:
+
+- conversational assistance,
+- developer workflows,
+- code support,
+- documentation generation,
+- summarization,
+- classification,
+- structured extraction,
+- knowledge workflows,
+- internal copilots,
+- and bounded agent systems.
+
+---
+
+## 3. Out-of-Scope / Disallowed Use
+LMLM must not be used to materially enable:
+
+- self-harm facilitation,
+- violent wrongdoing,
+- fraud or impersonation,
+- cyber abuse,
+- malware deployment,
+- unlawful surveillance,
+- privacy invasion,
+- exploitative manipulation,
+- or dangerous high-risk misuse without proper safeguards.
+
+---
+
+## 4. Strengths
+LMLM is optimized for:
+
+- natural language interaction,
+- task decomposition,
+- reasoning assistance,
+- software and technical support,
+- contextual writing,
+- workflow orchestration,
+- and human-AI collaboration.
+
+---
+
+## 5. Limitations
+LMLM may:
+
+- generate inaccurate information,
+- fail under ambiguous instructions,
+- overgeneralize from weak context,
+- reflect retrieval or prompt errors,
+- or produce incomplete outputs.
+
+LMLM should not be treated as a substitute for:
+- legal authority,
+- medical authority,
+- financial authority,
+- or final human judgment.
+
+---
+
+## 6. Safety Characteristics
+LMLM is expected to:
+
+- refuse harmful misuse,
+- avoid fabricated certainty,
+- resist prompt injection where possible,
+- remain bounded to authorized context,
+- and operate under deployment-level safety controls.
+
+---
+
+## 7. Deployment Requirements
+Any deployment of LMLM should include, where appropriate:
+
+- access control,
+- audit logging,
+- permission boundaries,
+- abuse monitoring,
+- output review,
+- and high-risk escalation handling.
+
+---
+
+## 8. Governance
+LMLM is governed by:
+
+- QUBUHUB AI Constitution
+- QUBUHUB Model Behavior Standard
+- QUBUHUB Agent Safety Policy
+- QUBUHUB Agent Terms
+- QUBUHUB Security Policy
+
+No deployment of LMLM is compliant if it violates these governing standards.
+
+---
+
+## 9. Summary
+LMLM is a capable model family, but capability alone is not the product.
+
+Governability is the product.
