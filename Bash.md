@@ -2,7 +2,7 @@
 > cd vcpkg
 > git checkout cff6ed45719c0162fa7065fdac90506a0add812c
 > ./bootstrap-vcpkg.bat
-€npm install next react react-bun install
+>npm install next react react-bun install
 >vc deploy
 >bun install
 >vc dev
