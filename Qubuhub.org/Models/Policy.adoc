@@ -1,0 +1,115 @@
+# QUBUHUB Security Policy
+**Version:** 1.0  
+**Effective Date:** 2026-04-05
+
+## Overview
+QUBUHUB is committed to protecting the confidentiality, integrity, and availability of its systems, users, models, infrastructure, and data flows.
+
+This policy defines how security issues should be reported and how we approach defensive operations.
+
+---
+
+## 1. Reporting Security Issues
+If you believe you have discovered a security vulnerability affecting QUBUHUB systems, please report it responsibly.
+
+### Contact
+**Email:** security@qubuhub.com
+
+### Include where possible
+- affected asset or endpoint,
+- vulnerability description,
+- reproduction steps,
+- proof of concept,
+- impact assessment,
+- and any relevant logs or screenshots.
+
+Do not publicly disclose a vulnerability before giving us a reasonable opportunity to investigate and remediate it.
+
+---
+
+## 2. Authorized Security Research
+We support good-faith security research conducted responsibly.
+
+Permitted research generally includes:
+- identifying vulnerabilities,
+- validating security assumptions,
+- reporting exposed weaknesses,
+- and testing within reasonable scope and rate.
+
+---
+
+## 3. Prohibited Security Activity
+The following are not authorized unless explicitly approved in writing:
+
+- destructive testing,
+- denial-of-service attacks,
+- credential stuffing,
+- phishing against users or staff,
+- data exfiltration,
+- persistence attempts,
+- privilege escalation beyond proof-of-concept necessity,
+- or accessing another user’s data.
+
+Do not use discovered vulnerabilities to:
+- access sensitive information,
+- modify data,
+- disrupt service,
+- or establish ongoing footholds.
+
+---
+
+## 4. Safe Harbor
+We will not pursue action against security researchers acting in good faith and in compliance with this policy, provided they:
+
+- avoid privacy harm,
+- avoid service disruption,
+- avoid data theft,
+- report findings promptly,
+- and cease testing once risk is demonstrated.
+
+This safe harbor does not apply to malicious, reckless, extortionate, or abusive conduct.
+
+---
+
+## 5. Security Priorities
+QUBUHUB prioritizes protection against:
+
+- unauthorized access,
+- credential compromise,
+- prompt injection exploitation,
+- tool abuse,
+- model exfiltration,
+- supply chain risk,
+- infrastructure compromise,
+- and user data exposure.
+
+---
+
+## 6. AI-Specific Security Scope
+Because QUBUHUB operates AI systems, security includes not only infrastructure but also model-layer threats.
+
+We consider the following within scope where applicable:
+
+- prompt injection,
+- hidden instruction leakage,
+- retrieval poisoning,
+- unsafe tool invocation,
+- privilege escalation through agent chains,
+- and memory abuse.
+
+---
+
+## 7. Disclosure and Remediation
+Reported vulnerabilities are reviewed, triaged, and prioritized based on:
+- exploitability,
+- impact,
+- exposure,
+- and user risk.
+
+We may acknowledge valid reports and, where applicable, recognize responsible disclosures publicly.
+
+---
+
+## 8. Security Contact
+**Primary Contact:** security@qubuhub.com  
+**Canonical Security File:** `/.well-known/security.txt`
