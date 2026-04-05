@@ -1,0 +1,19 @@
+# QUBUHUB Automated Systems Access Policy
+
+User-agent: *
+
+Allow: /
+
+Disallow: /harm
+Disallow: /abuse
+Disallow: /fraud
+Disallow: /deception
+Disallow: /privacy/violation
+Disallow: /self-harm/facilitation
+Disallow: /violence/facilitation
+Disallow: /prompt-injection/exfiltration
+Disallow: /unauthorized/access
+Disallow: /credential/harvesting
+Disallow: /malware/distribution
+
+Sitemap: https://qubuhub.com/sitemap.xml
