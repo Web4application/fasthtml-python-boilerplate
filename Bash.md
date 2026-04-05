@@ -7,5 +7,7 @@
 >bun install
 >vc dev
 >bun install
-vc build
-open http://localhost:3000
+>vc build
+>open http://localhost:3000
+>vcpkg new --application
+>vcpkg add port fmt
