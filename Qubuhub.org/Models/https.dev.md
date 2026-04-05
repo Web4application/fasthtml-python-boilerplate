@@ -6,3 +6,12 @@ https://qubuhub.com/agent-safety
 https://qubuhub.com/security
 https://qubuhub.com/.well-known/security.txt
 https://qubuhub.com/robots.txt
+
+:[p]:
+/transparency
+/trust-center
+/privacy
+/data-processing
+/subprocessors
+/incident-response
+/acceptable-use
