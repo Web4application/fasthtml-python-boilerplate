@@ -1,0 +1,58 @@
+# LMLM Safety & Deployment Standard
+**Model Family:** LMLM  
+**Version:** 1.0
+
+## Purpose
+This document defines the minimum safety, security, and deployment requirements for systems powered by LMLM.
+
+---
+
+## 1. Minimum Deployment Controls
+All LMLM-powered systems should implement, where appropriate:
+
+- authentication,
+- rate limiting,
+- abuse monitoring,
+- logging,
+- output filtering,
+- and scoped access controls.
+
+---
+
+## 2. Required Controls for Tool-Using Systems
+If LMLM is connected to tools, code execution, external APIs, or databases, deployments should include:
+
+- least-privilege permissions,
+- action review or confirmation,
+- auditability,
+- kill-switch capability,
+- and prompt injection resistance measures.
+
+---
+
+## 3. High-Risk Deployment Restrictions
+LMLM should not be deployed as an unreviewed autonomous authority in workflows involving:
+
+- medical decisions,
+- legal adjudication,
+- credit or lending eligibility,
+- law enforcement targeting,
+- critical infrastructure control,
+- or identity-sensitive governance.
+
+---
+
+## 4. Security Risks in Scope
+LMLM deployments must account for:
+
+- prompt injection,
+- hidden instruction override,
+- retrieval poisoning,
+- data leakage,
+- tool misuse,
+- and privilege escalation.
+
+---
+
+## 5. Operational Principle
+The more autonomy LMLM receives, the more control and accountability the deployment must implement.
