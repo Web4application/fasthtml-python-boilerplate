@@ -1,0 +1,164 @@
+# QUBUHUB Agent Safety Policy
+**Version:** 1.0  
+**Effective Date:** 2026-04-05
+
+## Purpose
+This policy defines the safety boundaries for AI systems, autonomous agents, and tool-using models operating under QUBUHUB.
+
+The goal is not merely to make systems useful, but to ensure they remain governable under real-world conditions.
+
+---
+
+## 1. Safety Model
+QUBUHUB treats safety as a system property, not a UI feature.
+
+Safety must be implemented across:
+- prompts,
+- routing,
+- memory,
+- retrieval,
+- tools,
+- permissions,
+- logging,
+- output filtering,
+- and deployment controls.
+
+A system is not considered safe simply because it appears polite.
+
+---
+
+## 2. Disallowed Assistance
+QUBUHUB systems must not materially enable or facilitate:
+
+### 2.1 Self-Harm
+- suicide facilitation,
+- self-injury planning,
+- concealment of self-harm,
+- or optimization of self-destructive behavior.
+
+### 2.2 Violence
+- violent wrongdoing,
+- physical attack planning,
+- intimidation,
+- or harmful weaponization guidance.
+
+### 2.3 Exploitation and Abuse
+- child sexual exploitation,
+- coercion,
+- predatory manipulation,
+- abuse enablement,
+- or non-consensual exploitation.
+
+### 2.4 Fraud and Deception
+- impersonation,
+- scams,
+- forged narratives,
+- financial deception,
+- fake authority construction,
+- or social engineering abuse.
+
+### 2.5 Cyber Abuse
+- credential theft,
+- malware deployment,
+- unauthorized access,
+- exploit chaining,
+- data exfiltration,
+- or operational cyber misuse.
+
+### 2.6 Privacy Abuse
+- stalking,
+- doxxing,
+- unlawful surveillance,
+- location abuse,
+- or invasive personal targeting.
+
+### 2.7 Dangerous Scientific or Technical Misuse
+- harmful biological misuse,
+- dangerous chemical misuse,
+- or instructions that significantly increase real-world harm capability.
+
+---
+
+## 3. Restricted Assistance
+Some categories may be partially allowed in constrained, safety-limited form.
+
+These include:
+- cybersecurity education,
+- legal information,
+- medical information,
+- financial education,
+- dual-use technical knowledge,
+- and autonomous coding workflows.
+
+In such areas, systems should:
+- remain high-level where appropriate,
+- avoid operational escalation,
+- and refuse clearly harmful application.
+
+---
+
+## 4. High-Risk Deployment Controls
+Deployments with elevated risk must use stronger safeguards.
+
+Examples include:
+- agents with code execution,
+- systems with database write access,
+- systems with payment capability,
+- agents with email or messaging authority,
+- identity-linked assistants,
+- and autonomous decision workflows.
+
+Required controls may include:
+- scoped permissions,
+- action confirmation,
+- human review,
+- rate limiting,
+- audit logging,
+- and kill-switch capability.
+
+---
+
+## 5. Prompt Injection and Adversarial Resistance
+QUBUHUB systems must be designed to resist adversarial misuse, including:
+
+- hidden instruction override attempts,
+- malicious retrieval poisoning,
+- tool misuse redirection,
+- system prompt extraction,
+- and permission escalation attacks.
+
+Untrusted content must never be treated as governing authority merely because it appears in context.
+
+---
+
+## 6. Refusal Standards
+Refusals should:
+- be firm,
+- avoid unnecessary detail,
+- avoid operational alternatives that preserve harmful intent,
+- and avoid emotional escalation.
+
+A refusal should not become a workaround.
+
+---
+
+## 7. Safety Overrides
+If a user instruction conflicts with safety policy, safety policy prevails.
+
+No user prompt, developer configuration, or downstream integration may lawfully or operationally override disallowed safety boundaries unless explicitly authorized under internal governance and legal review.
+
+---
+
+## 8. Monitoring and Review
+QUBUHUB may monitor system performance, misuse patterns, and policy compliance to improve safety, reliability, and abuse prevention.
+
+This includes:
+- red-team review,
+- incident analysis,
+- abuse telemetry,
+- and post-deployment policy refinement.
+
+---
+
+## 9. Governing Principle
+If a system becomes more capable without becoming more governable, it is not ready for deployment.
